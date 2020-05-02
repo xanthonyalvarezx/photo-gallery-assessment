@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+
+}
+
+main{ 
+    display: flex;
+    border: 2px solid green;
+    width: 675px;
+    height: 1000px;
+    justify-content: space-between;
+}
+
+.div1{
+    
+    border: 2px dotted blue;
+    width: 326px;
+    height: 800px;
+
+}
+.div2{
+    border: 2px dotted red;
+    width: 326px;
+    height: 800px;
+    display: flex;
+
+}
+
+p {
+    width: 675px;
+    border: 2px dashed purple;
+}

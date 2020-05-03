@@ -73,6 +73,89 @@ main{
 
 }
 
+@media (min-width:900px){
+    body{ 
+        display: flex;
+        background-color:grey;
+    
+    }
+
+    #about{
+        display: flex;
+    flex-direction: column;
+height: 2500px;
+width: 100px;
+align-items: center;
+    }
+
+    .para1{
+        
+        height: 800px;
+        
+    }
+    main{ 
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 900px;
+        height: 2500px;
+        }
+
+.images{
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+    width:780px;
+    height: 2500px;
+    
+
+
+}
+
+.div1{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 350px;
+   justify-content: space-between;
+    align-items: center;
+    
+    margin: 5px;
+    
+}
+.div2{
+    
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 400px;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 0px;
+    
+}
+
+   
+
+
+   
+
+}
+
+
+
+
+
+
+
+
+
 
 
   
@@ -80,54 +163,68 @@ main{
     
 
 
-@media (min-width:750px){
+@media (min-width:1831px){
     body{ 
-        display: flexbox;
-        background-color: yellow;
+        display: flex;
+        background-color:grey;
     }
 
     #about{
         display: flex;
     flex-direction: column;
-height: 100px;
+height: 800px;
 width: 300px;
 align-items: center;
     }
 
     .para1{
-        border: 3px dashed fuchsia;
+        
         height: 800px;
         
     }
     main{
         display: flex;
-        justify-content: flex-end;
-        border: 5px dotted green;
-        height: 2000px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+       
         width: 2000px;
         
     }
 
 .images{
-    flex-direction:row;
-    justify-content: flex-start;
-    align-items: center;
-    border: 3px solid orangered;
-    width: 1000px;
+    flex-direction:column-reverse;
+    justify-content: space-around;
+    
+    
     flex-wrap: wrap;
+    align-items: flex-start;
+    width: 1500px;
+    height: 1000px;
 
 
 }
 
 .div1{
-    width: 1000px;
-    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 326px;
+    height: 300px;
+    justify-content: space-around;
+    margin: 10px;
 }
 .div2{
-    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 326px;
     height: 200px;
+    justify-content: space-around;
+    margin: 10px;
 }
 
+
+
+
 }
-
-
